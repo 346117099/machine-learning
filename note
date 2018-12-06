@@ -31,3 +31,21 @@ https://en.wikipedia.org/wiki/Logistic_regression
 https://www.statisticssolutions.com/regression-analysis-logistic-regression/}
 
 
+Gradient Boosting = Gradient Descent + Boosting
+
+Gradient boosting is a machine learning method by ensemble weak prediction models and try to improve the error every time to produces a prediction model. In this method, the residue from prediction to target will be calculate and try have new function. And than the model which combine original and new function will be applied.
+
+The Gradient Boosting is like mountain climb, we would not try go straight to the climax. We will try to find some easy way to close to the climax which means we will take longer path but every step is easier to move. The climb path will shows a gradient to the line cross from bottom of the moutain and the climax.
+{
+
+
+Decision trees are used as the weak learner in gradient boosting.
+Specifically regression trees are used that output real values for splits and whose output can be added together, allowing subsequent models outputs to be added and “correct” the residuals in the predictions.
+Trees are constructed in a greedy manner, choosing the best split points based on purity scores like Gini or to minimize the loss.
+Initially, such as in the case of AdaBoost, very short decision trees were used that only had a single split, called a decision stump. Larger trees can be used generally with 4-to-8 levels.
+It is common to constrain the weak learners in specific ways, such as a maximum number of layers, nodes, splits or leaf nodes.
+This is to ensure that the learners remain weak, but can still be constructed in a greedy manner
+
+https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/}
+
+
