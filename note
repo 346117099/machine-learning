@@ -1,0 +1,33 @@
+補reference
+Decision Trees
+
+It commonly use in real word, for example, to clarify the mail which is spam mail or important mail.
+It has high interpretability which means easy to explain the result. It can creat the model of the dataset which contain labels and categories.
+The major decision tree disadvantages are its complexity, especially large ones with many branches, are complex and time-consuming affairs.
+Because we want to know the feature is meanful or not. Decision tree is easy to explain the result and can output of feature importance.
+Stochastic Gradient Descent Classifier (SGDC)
+
+Gradient Boosting can be applied in ranking algorithms, like ranking of searches by search engines.
+The method is very good for large datasets, reduces bias and variance, combines multiple weak predictors to a build strong predictor.
+Relatively high training time, over-fitting if the data sample is too small.
+The data we have is sufficiently large and clean so gradient boosting is suitable in this case.
+Logistic Regression
+
+Logistic Regression is very widely used in the case of binary classification problems.
+It can easily gives good results in case of less features with less training and prediction time.
+It hard to handle the complex problem which features have correlation to each other.
+This roblem is of binary classification with clean data, all favourable conditions for logistic regression.
+
+{Decision tree:
+https://medium.com/deep-math-machine-learning-ai/chapter-4-decision-trees-algorithms-b93975f7a1f1
+https://scikit-learn.org/stable/modules/tree.html
+
+Stochastic Gradient Descent Classifier
+https://scikit-learn.org/stable/modules/sgd.html
+https://en.wikipedia.org/wiki/Stochastic_gradient_descent
+
+Logistic Regression
+https://en.wikipedia.org/wiki/Logistic_regression
+https://www.statisticssolutions.com/regression-analysis-logistic-regression/}
+
+
